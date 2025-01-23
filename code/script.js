@@ -94,7 +94,6 @@ async function performSearch() {
     searchResults.appendChild(div);
 }
 
-// Remove the input event listener to prevent auto-search
 // Add click event listener for the search button
 searchButton.addEventListener('click', performSearch);
 
